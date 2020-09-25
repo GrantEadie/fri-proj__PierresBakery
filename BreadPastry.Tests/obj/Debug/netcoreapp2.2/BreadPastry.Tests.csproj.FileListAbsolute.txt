@@ -1,0 +1,17 @@
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/obj/Debug/netcoreapp2.2/BreadPastry.Tests.csprojAssemblyReference.cache
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/obj/Debug/netcoreapp2.2/BreadPastry.Tests.csproj.CoreCompileInputs.cache
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/obj/Debug/netcoreapp2.2/BreadPastry.Tests.AssemblyInfoInputs.cache
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/obj/Debug/netcoreapp2.2/BreadPastry.Tests.AssemblyInfo.cs
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/BreadPastry.Tests.deps.json
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/BreadPastry.Tests.runtimeconfig.json
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/BreadPastry.Tests.runtimeconfig.dev.json
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/BreadPastry.Tests.dll
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/BreadPastry.Tests.pdb
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/BreadPastry.dll
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/bin/Debug/netcoreapp2.2/BreadPastry.pdb
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/obj/Debug/netcoreapp2.2/BreadPastry.Tests.csproj.CopyComplete
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/obj/Debug/netcoreapp2.2/BreadPastry.Tests.dll
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry.Tests/obj/Debug/netcoreapp2.2/BreadPastry.Tests.pdb

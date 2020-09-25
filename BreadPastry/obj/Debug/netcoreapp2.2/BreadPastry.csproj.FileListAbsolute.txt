@@ -1,0 +1,9 @@
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/bin/Debug/netcoreapp2.2/BreadPastry.deps.json
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/bin/Debug/netcoreapp2.2/BreadPastry.dll
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/bin/Debug/netcoreapp2.2/BreadPastry.pdb
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/obj/Debug/netcoreapp2.2/BreadPastry.csprojAssemblyReference.cache
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/obj/Debug/netcoreapp2.2/BreadPastry.csproj.CoreCompileInputs.cache
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/obj/Debug/netcoreapp2.2/BreadPastry.AssemblyInfoInputs.cache
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/obj/Debug/netcoreapp2.2/BreadPastry.AssemblyInfo.cs
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/obj/Debug/netcoreapp2.2/BreadPastry.dll
+/Users/granteadie/Desktop/EPICODUS/C#/bread-pastry.Solution1/BreadPastry/obj/Debug/netcoreapp2.2/BreadPastry.pdb
