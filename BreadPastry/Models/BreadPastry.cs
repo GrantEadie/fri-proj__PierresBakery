@@ -4,31 +4,30 @@ using System.Linq;
 
 namespace BreadPastry.Models
 {
-  public class Order
+  public class Bread
+  {
+    public int BreadPrices{ get; set; }
+
+    private static List<Bread> _order = new List<Bread> 
+
+    public Bread (int prices)
+    {
+      BreadPrices = prices;
+      _order.Add(this);
+    }
+
+    public static 
+    
+  }
+  public class Pastry
   {
 
-    public class Bread
+    public int PastryPrices{ get; set; }
+
+    public Pastry (int prices)
     {
-      public int BreadPrices { get; set; }
-
-      public Bread(int prices)
-      {
-        BreadPrices = prices;
-        _order.Add(this);
-      }
-
-
+      PastryPrices = prices;
     }
-    public class Pastry
-    {
 
-      public int PastryPrices { get; set; }
-
-      public Pastry(int prices)
-      {
-        PastryPrices = prices;
-      }
-
-    }
   }
 }
