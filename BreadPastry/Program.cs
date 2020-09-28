@@ -27,7 +27,13 @@ namespace BreadPastry
 
       int finalTotal = breadTotal.TotalBreadPrice() + pastryTotal.TotalPastryPrice();
 
-      Console.WriteLine("Your total will be: $" + finalTotal + ".00");
+      Console.WriteLine(@"
+      
+      Your total will be: $" + finalTotal + ".00" + @"
+      
+      Have a lovely day!
+      
+      ");
 
     }
   }
