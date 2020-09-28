@@ -15,6 +15,30 @@ namespace BreadPastry.Models
       BreadPrices = prices;
       _order.Add(this);
     }
+
+    public int TotalBreadPrice()
+    {
+      int totalAmount = 0;
+      foreach (int amount in _order)
+      {
+        if (amount >= 2)
+        {
+          if (amount%2 == 1)
+          {
+            totalAmount = ((amount - 1)/2) * 5;
+          }
+          else
+          {
+            totalAmount = (amount/2) * 5;
+          }
+        }
+        else 
+        {
+          totalAmount = 5;
+        }
+      }
+      return totalAmount;
+    }
     
   }
   public class Pastry
