@@ -22,7 +22,12 @@ namespace BreadPastry
       Console.WriteLine("And how many pastries would you like?");
       int pastryInput = int.Parse(Console.ReadLine());
 
-      
+      Bread breadTotal = new Bread(loafInput);
+      Pastry pastryTotal = new Pastry(pastryInput);
+
+      int finalTotal = breadTotal.TotalBreadPrice() + pastryTotal.TotalPastryPrice();
+
+      Console.WriteLine("Your total will be: $" + finalTotal + ".00");
 
     }
   }
