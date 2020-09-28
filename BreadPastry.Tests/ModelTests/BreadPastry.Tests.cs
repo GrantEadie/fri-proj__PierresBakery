@@ -34,8 +34,9 @@ namespace BreadPastry.Tests
     [TestMethod]
     public void TotalBreadPrice_ReturnBreadPrice_Int()
     {
-      Bread newBread = new Bread(9);
-      Assert.AreEqual(20, newBread.TotalBreadPrice());
+      Pastry newPastry = new Pastry(10);
+      Assert.AreEqual(17, newPastry.TotalPastryPrice());
+    }
   }
 
 }

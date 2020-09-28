@@ -39,15 +39,28 @@ namespace BreadPastry.Models
   public class Pastry
   {
 
-    public int PastryPrices{ get; set; }
-
-    private static List<Pastry> _order = new List<Pastry> {};
-
-    public Pastry (int prices)
+    private int _amount;
+    public Pastry(int inputAmount)
     {
-      PastryPrices = prices;
-      _order.Add(this);
+      
+      _amount = inputAmount;
+
     }
+
+    public int TotalPastryPrice()
+    {
+      int totalCost = 0;
+        if (_amount >= 3)
+        {
+          totalCost = ((_amount - (_amount%3))/3 * 5) + (_amount%3 * 2);
+        }
+        else 
+        {
+          totalCost = _amount * 2;
+        }
+      return totalCost;
+    }
+  
 
   }
 }
