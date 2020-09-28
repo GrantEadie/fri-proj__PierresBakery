@@ -30,6 +30,12 @@ namespace BreadPastry.Tests
       Pastry newPastry = new Pastry(50);
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
+
+    [TestMethod]
+    public void TotalBreadPrice_ReturnBreadPrice_Int()
+    {
+      Bread newBread = new Bread(9);
+      Assert.AreEqual(20, newBread.TotalBreadPrice());
   }
 
 }
