@@ -19,6 +19,11 @@ _The user will be prompted to input the total number of loaves of bread they wou
 
 _This application depends on the installation of .NET Core._
 
+## SPECS
+
+* Muliplies inputted number by 5 (the price of the bread), prompts user if they would like another loaf for free (if more than two). 
+* Multiplies inputted number by 3 (the price of the pastries), and promptes user if they would like another pastry for a total of $5 (if more than 3).
+
 ## Known Bugs
 
 _No known bugs._
