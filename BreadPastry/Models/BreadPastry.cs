@@ -6,26 +6,26 @@ namespace BreadPastry.Models
 {
   public class Bread
   {
-    private int _amount;
+    public int Amount { get; set; }
     public Bread(int inputAmount)
     {
       
-      _amount = inputAmount;
+      Amount = inputAmount;
 
     }
 
     public int TotalBreadPrice()
     {
       int totalCost = 0;
-        if (_amount >= 2)
+        if (Amount >= 3)
         {
-          if (_amount%2 == 1)
+          if (Amount%3 == 1)
           {
-            totalCost = ((_amount - 1)/2) * 5;
+            totalCost = ((Amount - 1)/2) * 5;
           }
           else
           {
-            totalCost = (_amount/2) * 5;
+            totalCost = (Amount/2) * 5;
           }
         }
         else 
@@ -39,24 +39,24 @@ namespace BreadPastry.Models
   public class Pastry
   {
 
-    private int _amount;
+    public int Amount { get; set; }
     public Pastry(int inputAmount)
     {
       
-      _amount = inputAmount;
+      Amount = inputAmount;
 
     }
 
     public int TotalPastryPrice()
     {
       int totalCost = 0;
-        if (_amount >= 3)
+        if (Amount >= 3)
         {
-          totalCost = ((_amount - (_amount%3))/3 * 5) + (_amount%3 * 2);
+          totalCost = ((Amount - (Amount%3))/3 * 5) + (Amount%3 * 2);
         }
         else 
         {
-          totalCost = _amount * 2;
+          totalCost = Amount * 2;
         }
       return totalCost;
     }
