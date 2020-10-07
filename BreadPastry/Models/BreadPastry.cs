@@ -16,23 +16,16 @@ namespace BreadPastry.Models
 
     public int TotalBreadPrice()
     {
-      int totalCost = 0;
-        if (Amount >= 3)
-        {
-          if (Amount%3 == 1)
-          {
-            totalCost = ((Amount - 1)/2) * 5;
-          }
-          else
-          {
-            totalCost = (Amount/2) * 5;
-          }
-        }
-        else 
-        {
-          totalCost = 5;
-        }
-      return totalCost;
+      int total = 0;
+      if (Amount >= 3)
+      {
+        total = (Amount*5 - (((Amount - (Amount % 3))/3)*5)); 
+      }
+      else
+      {
+        total = Amount * 5;
+      }
+      return total;
     }
     
   }

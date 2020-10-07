@@ -21,8 +21,11 @@ _This application depends on the installation of .NET Core._
 
 ## SPECS
 
-* Muliplies inputted number by 5 (the price of the bread), prompts user if they would like another loaf for free (if more than two). 
-* Multiplies inputted number by 3 (the price of the pastries), and promptes user if they would like another pastry for a total of $5 (if more than 3).
+* Multiplies the inputted total by 5 (the price of the bread).
+* Subtracts modulo three of the inputted number, thus finding the amount that is divisible by 3. 
+* This number is divided by three, finding the total number of bread slices that can subtracted from the total.
+* The number of slices is subtracted from the total.
+* Multiplies inputted number by 3 (the price of the pastries).
 
 ## Known Bugs
 
